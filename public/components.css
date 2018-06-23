@@ -2,8 +2,18 @@
 /*Wrapper class to dictate paddings in mobile and web*/
 .main-wrapper{
     padding: 30px;
-    background-color: tomato;
 }
+/*navbar class*/
+.navbar{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding-top: 20px;
+    padding-bottom:10px;
+
+}
+
 /*to fix the footer to the bottom*/
 .footer{
     position: fixed;
@@ -11,10 +21,31 @@
     bottom: 0;
     width: 100%;
     color: white;
-    background-color: #707070;
+    background-color: #4e5d61;
     padding: 10px;
 }
 
 .image{
     padding-right: 5px;
 }
+
+.bg-dark{
+    background-color: #4e5d61!important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover{
+    color: white;
+
+}
+.underline{
+    margin-bottom: -10px;
+    width: 100%;
+    border-bottom: 8px solid #4e5d61;
+}
+.underline:hover {
+    width: 100%;
+    border-bottom: 8px solid currentColor;
+}
+
