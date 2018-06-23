@@ -11,9 +11,16 @@
     margin-top: -10px;
     padding-top: 20px;
     padding-bottom:10px;
-
+    z-index: 10;
 }
-
+.nav-item{
+    padding: 10px;
+}
+.nav-wrap{
+    border-color: tomato;
+    border-style: none solid solid none;
+    border-width: 20px;
+}
 /*to fix the footer to the bottom*/
 .footer{
     position: fixed;
@@ -23,10 +30,15 @@
     color: white;
     background-color: #4e5d61;
     padding: 10px;
+    z-index: 10;
 }
 
 .image{
     padding-right: 5px;
+
+}
+.logo-background{
+    background-color: olive;
 }
 
 .bg-dark{
@@ -47,5 +59,28 @@
 .underline:hover {
     width: 100%;
     border-bottom: 8px solid currentColor;
+}
+
+.logo{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 20px;
+    padding-right: 40px;
+    height: 15%;
+    width: 15%;
+    outline-style:solid ;
+    outline-width: 30px;
+    outline-color: tomato;
+    z-index: 10;
+}
+
+.pipeline{
+    z-index: 1;
+    position: absolute;
+    margin-top:-50px;
+    right: 0;
+    padding-right: 50px;
+    background-color: cornflowerblue;
 }
 
