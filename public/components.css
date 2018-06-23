@@ -4,6 +4,7 @@
     padding: 30px;
     background-color: tomato;
 }
+/*to fix the footer to the bottom*/
 .footer{
     position: fixed;
     left: 0;
@@ -11,4 +12,9 @@
     width: 100%;
     color: white;
     background-color: #707070;
+    padding: 10px;
+}
+
+.image{
+    padding-right: 5px;
 }
