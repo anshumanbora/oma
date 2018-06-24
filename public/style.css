@@ -94,7 +94,7 @@ body {
 .logo{
     display: table;
     padding: 20px;
-    margin-left: 960px;
+    margin-left: 1060px;
     position: relative;
     /*z-index: 10;*/
     background-color: white;
@@ -103,7 +103,7 @@ body {
     margin-top: -100px;
     height: 16%;
     width: 16%;
-    animation: fade-in 2s;
+    animation: fade-in 5s;
 
 }
 
@@ -213,6 +213,83 @@ body {
     }
 }
 
+.rise-up-nav{
+    animation-delay: 1.3s;
+    animation-duration: 1.2s;
+    animation-name: rise-up-navs;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.rise-up-nav2{
+    animation-delay: 1.6s;
+    animation-duration: 1.2s;
+    animation-name: rise-up-navs;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+.rise-up-nav3{
+    animation-delay: 1.9s;
+    animation-duration: 1.2s;
+    animation-name: rise-up-navs;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+.rise-up-nav4{
+    animation-delay: 2.2s;
+    animation-duration: 1.2s;
+    animation-name: rise-up-navs;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+@keyframes rise-up-navs {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(50%);
+
+    }
+    100% {
+        opacity:1;
+        transform: translateY(0);
+        color:white;
+    }
+}
+
+.rise-up-moto{
+    animation-delay: 3s;
+    animation-duration: 1.7s;
+    animation-name: rise-up-moto;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+@keyframes rise-up-moto {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(50%);
+
+    }
+    100% {
+        opacity:1;
+        transform: translateY(0);
+        color:#cacaca;
+    }
+}
+
+
+
+
 .underline-slogan{
     width: 90%;
     border-bottom: 2px solid #4e5d61;
@@ -238,7 +315,7 @@ body {
     border-radius: 0px;
     width:150px;
     transition: border-radius 1s,color 1s,background-color 1s;
-
+    animation: fade-in 5s;
 }
 .button:hover{
     background-color: black;

@@ -16,7 +16,7 @@ function OilRig() {
     return <img className="oilrig" src={require('./assets/Oil-Rig.png')} />;
 }
 function Moto() {
-    return <div className="moto text-right rise-up-animate5"> BUILT BY ROYALTY OWNERS<br/> FOR ROYALTY OWNERS</div>
+    return <div className="moto text-right rise-up-moto"> BUILT BY ROYALTY OWNERS<br/> FOR ROYALTY OWNERS</div>
 }
 function Slanted(){
   return <img className="slanted rise-up-animate3" src={require('./assets/slanted.png')} />;

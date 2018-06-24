@@ -18,16 +18,16 @@ export default class Navbar extends Component{
                                 <a className="nav-link underline" href="#">HOME</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link underline" href="#">ROYALTY ADVOCATE</a>
+                                <a className="nav-link underline rise-up-nav" href="#">ROYALTY ADVOCATE</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link underline" href="#">ABOUT</a>
+                                <a className="nav-link underline rise-up-nav2" href="#">ABOUT</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link underline" href="#">CAREERS</a>
+                                <a className="nav-link underline rise-up-nav3" href="#">CAREERS</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link underline" href="#">CONTACT US</a>
+                                <a className="nav-link underline rise-up-nav4" href="#">CONTACT US</a>
                             </li>
                         </ul>
 
