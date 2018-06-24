@@ -30,14 +30,18 @@ class App extends Component {
     return (
       <div>
           <div className="content">
+
             <Navbar/>
+
+
             <Logo/>
             <Pipeline/>
+
             <SeeHow/>
-            <Slanted/>
-            <Dots/>
-            <OilRig/>
-            <Moto/>
+            {/*<Slanted/>*/}
+            {/*<Dots/>*/}
+            {/*<OilRig/>*/}
+            {/*<Moto/>*/}
 
 
           </div>
