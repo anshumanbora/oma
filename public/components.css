@@ -1,7 +1,9 @@
 
 /*Wrapper class to dictate paddings in mobile and web*/
 .main-wrapper{
-    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #222222;
 }
 /*navbar class*/
 .navbar{
@@ -23,7 +25,8 @@
 }
 /*to fix the footer to the bottom*/
 .footer{
-    position: fixed;
+    position: absolute;
+
     left: 0;
     bottom: 0;
     width: 100%;
@@ -36,9 +39,6 @@
 .image{
     padding-right: 5px;
 
-}
-.logo-background{
-    background-color: olive;
 }
 
 .bg-dark{
@@ -62,25 +62,82 @@
 }
 
 .logo{
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding-top: 20px;
-    padding-right: 40px;
+    margin-top:-50px;
+    float: right;
+    margin-right: 180px;
     height: 15%;
     width: 15%;
     outline-style:solid ;
     outline-width: 30px;
     outline-color: tomato;
-    z-index: 10;
+    /*z-index: 0;*/
 }
 
 .pipeline{
     z-index: 1;
-    position: absolute;
     margin-top:-50px;
     right: 0;
     padding-right: 50px;
     background-color: cornflowerblue;
 }
 
+
+.see-how{
+    z-index: 50;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: green;
+
+}
+.see-how-wrapper{
+    margin-top: 100px;
+
+}
+.slogan{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.underline-slogan{
+    width: 90%;
+    border-bottom: 2px solid #4e5d61;
+}
+.button{
+    display:block;
+    background-color: #2195b9;
+    margin: 0 auto;
+    border: none;
+    color: white;
+    font-family: Arial;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.button:hover{
+    background-color: black;
+    color: lightblue;
+    cursor: pointer;
+}
+
+.oilrig{
+
+    z-index: 2;
+    position: relative;
+    margin-top:250px;
+    left: 0;
+    background-color: cornflowerblue;
+    margin-bottom: 150px;
+}
+
+.moto{
+    /*bottom: 0;*/
+    float:right;
+    padding: 20px;
+    margin-right: 150px;
+    position: relative;
+    z-index: 10;
+    background-color: red;
+    color: lightgrey;
+    font-size: 25px;
+
+}
