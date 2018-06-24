@@ -39,10 +39,10 @@ class App extends Component {
             <Pipeline/>
 
             <SeeHow/>
-          <Slanted/>
-          <Dots/>
-          <OilRig/>
-          <Moto/>
+              <Slanted/>
+              <Dots/>
+              <OilRig/>
+            <Moto/>
 
 
 

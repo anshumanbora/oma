@@ -2,6 +2,8 @@ html {
     height: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
+    width: 1260px;
+    margin:0 auto;
 }
 
 *,
@@ -94,7 +96,7 @@ body {
 .logo{
     display: table;
     padding: 20px;
-    margin-left: 1060px;
+    margin-left: 950px;
     position: relative;
     /*z-index: 10;*/
     background-color: white;
@@ -292,7 +294,7 @@ body {
 
 .underline-slogan{
     width: 90%;
-    border-bottom: 2px solid #4e5d61;
+    border-bottom: 2px solid #b5b5b5;
     animation: fade-in 4s;
 }
 @keyframes fade-in {
@@ -357,11 +359,11 @@ body {
 }
 .slanted{
     position: relative;
-    margin-top: -30px;
+    margin-top: -90px;
     margin-left: 100px;
     z-index: 500;
-    width: 18%;
-    height: 18%;
+    width: 20%;
+    height: 20%;
 }
 
 .dots{
@@ -379,9 +381,84 @@ body {
     }
 }
 
-@media only screen and (max-width: 100px)
+@media only screen and (max-width: 900px)
 {
     body {
-        background-color: moccasin;
+        background-color: white;
+        overflow-x: hidden;
+    }
+
+    .footer{
+        width: 100%;
+        margin-top: 500px;
+        bottom:0;
+        padding-left: 10px;
+        font-size: 8px;
+    }
+    .navbar{
+        width: 65%;
+
+    }
+    .nav-wrap{
+        border-color: white;
+        border-style: none solid solid none;
+        border-width: 5px;
+    }
+
+    .logo{
+        margin: 0;
+        float: right;
+        margin-top: -60px;
+        width: 100px;
+        padding: 0;
+        margin-right: 20px;
+        height:auto;
+        background-color: #2195b9;
+    }
+    .nav-responsive{
+        width: 400px!important;
+        background-color: red;
+    }
+    .pipeline{
+        margin: 0;
+        padding: 0;
+        margin-top: -5px;
+        height: 250px;
+        width: 300px;
+        margin-left: 30%;
+    }
+    .see-how{
+        padding: 0;
+        margin: 0;
+        margin-left: 30px;
+        margin-top: 70px;
+
+    }
+    .button{
+        width: 40%;
+        font-size: 10px;
+        padding: 10px;
+        border-color: white;
+        border-style: solid;
+        border-width: 10px;
+        margin: 0;
+        margin-left: 85px;
+
+
+    }
+    .slogan{
+        margin: 0;
+        padding: 0;
+    }
+    .underline-slogan{
+        margin: 0;
+        padding: 0;
+    }
+    .sub-slogan{
+        margin: 0;
+        padding: 0;
+        margin-left: -20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
