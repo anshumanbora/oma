@@ -42,7 +42,7 @@ class App extends Component {
               {/*<Slanted/>*/}
               {/*<Dots/>*/}
               <OilRig/>
-            {/*<Moto/>*/}
+                <Moto/>
 
 
 

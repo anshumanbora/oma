@@ -133,7 +133,6 @@ body {
 
 .see-how-wrapper{
     margin-top: -250px;
-    margin-left: -180px;
 }
 .see-how-responsive{
     background-color: white;
@@ -442,11 +441,12 @@ body {
         height: 90%;
     }
     .see-how-wrapper{
-        width: 75%;
+        width: 95%;
         margin-top: -40%;
-        margin-left: 17%;
+        margin-left: 4%;
         padding: 0;
         background-color: transparent;
+
     }
     .see-how{
         background-color: transparent;
@@ -454,7 +454,7 @@ body {
     .see-how-responsive{
         visibility: visible;
         border: solid;
-        border-width: 20px;
+        border-width: 30px;
         border-color: white;
     }
     .slogan{
@@ -485,9 +485,17 @@ body {
         padding: 0;
         margin: 0;
         border: none;
-        width: 70%;
+        width: 75%;
         height: 80%;
         margin-top: -110px;
+        margin-left: 2%;
     }
-
+    .moto{
+        padding: 0;
+        margin: 0;
+        width: 60%;
+        font-size: 15px;
+        margin-left: 35%;
+        margin-top: -10%;
+    }
 }
