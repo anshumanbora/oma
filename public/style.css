@@ -35,8 +35,10 @@ body {
     color: white;
     padding-left: 70px;
 }
-
-
+/*Clas to */
+break-responsive{
+    visibility: hidden;
+}
 /*Wrapper class to dictate paddings in mobile and web*/
 .main-wrapper{
     margin-left: 50px;
@@ -98,7 +100,6 @@ body {
     padding: 20px;
     margin-left: 950px;
     position: relative;
-    /*z-index: 10;*/
     background-color: white;
     color: lightgrey;
     font-size: 25px;
@@ -110,10 +111,6 @@ body {
 }
 
 .pipeline{
-    /*position: relative;*/
-    /*z-index: 500;*/
-    /*display:inline-block;*/
-    background-color: cornflowerblue;
     width: 47%;
     height:47%;
     margin-left: 550px;
@@ -128,12 +125,18 @@ body {
     margin: 0 auto;
     background-color: white;
     margin-bottom: 70px;
+    color: black;
+    visibility: visible;
 
 }
 
 .see-how-wrapper{
     margin-top: -250px;
+    background-color: white;
+    color: black;
 }
+
+/*Don't need it for large screen so keeping it hidden*/
 .see-how-responsive{
     background-color: white;
     visibility: hidden;
@@ -142,10 +145,12 @@ body {
     font-weight: bold;
     font-size: 20px;
     padding-bottom: 10px;
+    visibility: visible;
 }
 .sub-slogan {
     padding-top: 10px;
     padding-bottom: 10px;
+    visibility: visible;
 }
 
 .rise-up-animate{
@@ -155,6 +160,7 @@ body {
     animation-name: rise-up;
     animation-fill-mode: both;
     animation-timing-function: ease;
+    visibility: visible;
 }
 
 .rise-up-animate2{
@@ -204,7 +210,7 @@ body {
     animation-timing-function: ease;
 }
 
-
+/*Generic animation code to mimic the requirement stated in the problem*/
 @keyframes rise-up {
     0% {
         opacity: 0;
@@ -253,6 +259,7 @@ body {
     animation-timing-function: ease;
 }
 
+/*Animation for the navbar items*/
 @keyframes rise-up-navs {
     0% {
         opacity: 0;
@@ -279,6 +286,7 @@ body {
     animation-timing-function: ease;
 }
 
+/*Animation for the SEE HOW section*/
 @keyframes rise-up-moto {
     0% {
         opacity: 0;
@@ -306,6 +314,8 @@ body {
     animation: fade-in 4s;
     margin-left: 5%;
 }
+
+/*This piece of code slowly fades in components*/
 @keyframes fade-in {
     0% {opacity: 0;}
     100%{opacity:1;}
@@ -323,6 +333,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 
+    /*state of the button before and after animation*/
     border-radius: 0px;
     width:150px;
     transition: border-radius 1s,color 1s,background-color 1s;
@@ -333,6 +344,7 @@ body {
     color: lightblue;
     cursor: pointer;
 
+    /*Animation part*/
     border-radius: 25px;
     width:160px;
     transition: border-radius 1s,color 1s,background-color 1s;
@@ -340,8 +352,6 @@ body {
 
 
 .oilrig{
-    /*z-index: 2;*/
-    /*position: relative;*/
     margin-top:-250px;
     left: 0;
     margin-left: 100px;
@@ -363,6 +373,7 @@ body {
     /*margin-bottom: 100px;*/
 }
 
+/*blank space to make sure the footer doesn't collapse*/
 .before-footer{
     margin-bottom: 150px  ;
 }
@@ -383,6 +394,9 @@ body {
     height: 18%;
 }
 
+
+/*Responsive section
+*/
 @media only screen and (max-width: 900px)
 {
     html,body {
@@ -390,6 +404,7 @@ body {
         margin: 0 auto;
         overflow-x: hidden;
         overflow-y: auto;
+        /*Fixing the screen size for smaller screens*/
         max-width: 380px;
     }
     #root{
@@ -411,13 +426,14 @@ body {
     .image{
         height: 10px;
         width:10px;
-        background-color: #2195b9;
+
     }
     .navbar{
         margin: 0;
         padding:0;
         margin-top:-32px;
         width: 80%;
+        font-size: 10px;
     }
     .nav-wrap{
         border-color: white;
@@ -451,6 +467,7 @@ body {
     .see-how{
         background-color: transparent;
     }
+    /*This class will work only in mobile devices*/
     .see-how-responsive{
         visibility: visible;
         border: solid;
@@ -461,14 +478,12 @@ body {
         font-size: 16px;
         background-color: transparent;
         padding: 0;
-        /*border-style: solid none solid solid;*/
-        /*border-width: 40px;*/
+
     }
     .sub-slogan{
         padding-top: 10px;
         font-size: 12px;
         background-color: transparent;
-
 
     }
     .button{
@@ -480,6 +495,7 @@ body {
         border-style: solid;
         border-width: 5px;
         margin-top: -20px;
+        z-index: 100;
     }
     .oilrig{
         padding: 0;
@@ -497,5 +513,26 @@ body {
         font-size: 15px;
         margin-left: 35%;
         margin-top: -10%;
+    }
+    .dots{
+        padding: 0;
+        margin: 0;
+        float:right;
+        margin-top: -120px;
+        margin-right: 50px;
+        z-index:-1;
+    }
+    .slanted{
+        float: left;
+    }
+    .before-footer{
+        margin-bottom: 50px;
+    }
+    .copyright{
+        margin-top: -50px;
+    }
+    /*class to make a <br> tag invisible in larger screen sizes*/
+    .break-responsive{
+        visibility: visible;
     }
 }

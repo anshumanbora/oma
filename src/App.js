@@ -3,7 +3,6 @@ import Footer from './components/Footer';
 import './App.css';
 import Navbar from "./components/Navbar";
 import SeeHow from "./components/SeeHow";
-import LightSpeed from 'react-reveal/LightSpeed';
 
 0
 function Logo(){
@@ -39,16 +38,16 @@ class App extends Component {
             <Pipeline/>
 
             <SeeHow/>
-              {/*<Slanted/>*/}
-              {/*<Dots/>*/}
+              <Slanted/>
+              <Dots/>
               <OilRig/>
                 <Moto/>
 
 
 
           </div>
-        {/*<div className="before-footer"></div>*/}
-          {/*<Footer/>*/}
+        <div className="before-footer"></div>
+          <Footer/>
 
 
       </div>
