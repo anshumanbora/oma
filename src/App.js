@@ -3,7 +3,7 @@ import Footer from './components/Footer';
 import './App.css';
 import Navbar from "./components/Navbar";
 import SeeHow from "./components/SeeHow";
-import Fade from 'react-reveal/Fade';
+import LightSpeed from 'react-reveal/LightSpeed';
 
 function Logo(){
   return <img className="logo" src={require('./assets/Logo1.png')} />;

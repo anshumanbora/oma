@@ -144,8 +144,17 @@ body {
 }
 
 .rise-up-animate{
+
     animation-delay: .5s;
-    animation-duration: 1s;
+    animation-duration: 1.3s;
+    animation-name: rise-up;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.rise-up-animate2{
+    animation-delay: .8s;
+    animation-duration: 1.5s;
     animation-name: rise-up;
     animation-fill-mode: both;
     animation-timing-function: ease;
@@ -155,16 +164,28 @@ body {
     0% {
         opacity: 0;
         transform: translateY(100%);
+        color:white;
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(50%);
+        color:white;
     }
     100% {
-        opacity: 1;
+        opacity:1;
         transform: translateY(0);
+        color:black;
     }
 }
 
 .underline-slogan{
     width: 90%;
     border-bottom: 2px solid #4e5d61;
+    animation: fade-in 4s;
+}
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100%{opacity:1;}
 }
 
 .button{
@@ -180,7 +201,7 @@ body {
 
     border-radius: 0px;
     width:150px;
-    transition: border-radius 2s,color 1s,background-color 1s;
+    transition: border-radius 1s,color 1s,background-color 1s;
 
 }
 .button:hover{
@@ -190,7 +211,7 @@ body {
 
     border-radius: 25px;
     width:160px;
-    transition: border-radius 2s,color 1s,background-color 1s;
+    transition: border-radius 1s,color 1s,background-color 1s;
 }
 
 
