@@ -3,7 +3,7 @@ import Footer from './components/Footer';
 import './App.css';
 import Navbar from "./components/Navbar";
 import SeeHow from "./components/SeeHow";
-
+import Fade from 'react-reveal/Fade';
 
 function Logo(){
   return <img className="logo" src={require('./assets/Logo1.png')} />;
@@ -38,10 +38,11 @@ class App extends Component {
             <Pipeline/>
 
             <SeeHow/>
-            {/*<Slanted/>*/}
-            {/*<Dots/>*/}
-            {/*<OilRig/>*/}
-            {/*<Moto/>*/}
+          <Slanted/>
+          <Dots/>
+          <OilRig/>
+          <Moto/>
+
 
 
           </div>
