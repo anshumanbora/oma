@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import SeeHow from "./components/SeeHow";
 
-0
+
 function Logo(){
   return <img className="logo" src={require('./assets/Logo1.png')} />;
 }
@@ -30,26 +30,17 @@ class App extends Component {
     return (
       <div>
           <div className="content">
-
             <Navbar/>
-
-
             <Logo/>
             <Pipeline/>
-
             <SeeHow/>
-              <Slanted/>
-              <Dots/>
-              <OilRig/>
-                <Moto/>
-
-
-
+            <Slanted/>
+            <Dots/>
+            <OilRig/>
+            <Moto/>
           </div>
-        <div className="before-footer"></div>
+          <div className="before-footer"></div>
           <Footer/>
-
-
       </div>
     );
   }

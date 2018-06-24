@@ -35,7 +35,7 @@ body {
     color: white;
     padding-left: 70px;
 }
-/*Clas to */
+
 break-responsive{
     visibility: hidden;
 }
@@ -417,9 +417,7 @@ break-responsive{
         bottom: 0;
         left: 0;
         margin: 0;
-        padding: 0;
-        padding-right:5px;
-        padding-left:5px;
+        padding: 10px;
         font-size: 8px;
         display: inline-block;
     }
@@ -526,7 +524,7 @@ break-responsive{
         float: left;
     }
     .before-footer{
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .copyright{
         margin-top: -50px;
