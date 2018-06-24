@@ -133,11 +133,20 @@ body {
 
 .see-how-wrapper{
     margin-top: -250px;
+    margin-left: -180px;
 }
-
+.see-how-responsive{
+    background-color: white;
+    visibility: hidden;
+}
 .slogan{
     font-weight: bold;
     font-size: 20px;
+    padding-bottom: 10px;
+}
+.sub-slogan {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .rise-up-animate{
@@ -296,6 +305,7 @@ body {
     width: 90%;
     border-bottom: 2px solid #b5b5b5;
     animation: fade-in 4s;
+    margin-left: 5%;
 }
 @keyframes fade-in {
     0% {opacity: 0;}
@@ -374,91 +384,110 @@ body {
     height: 18%;
 }
 
-@media only screen and (max-width: 1150px)
-{
-    body {
-        background-color: lightblue;
-    }
-}
-
 @media only screen and (max-width: 900px)
 {
-    body {
+    html,body {
         background-color: white;
+        margin: 0 auto;
         overflow-x: hidden;
+        overflow-y: auto;
+        max-width: 380px;
+    }
+    #root{
+        overflow-x: hidden;
+        margin:0 auto;
     }
 
     .footer{
-        width: 100%;
-        margin-top: 500px;
-        bottom:0;
-        padding-left: 10px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        padding-right:5px;
+        padding-left:5px;
         font-size: 8px;
+        display: inline-block;
+    }
+    .image{
+        height: 10px;
+        width:10px;
+        background-color: #2195b9;
     }
     .navbar{
-        width: 65%;
-
+        margin: 0;
+        padding:0;
+        margin-top:-32px;
+        width: 80%;
     }
     .nav-wrap{
         border-color: white;
         border-style: none solid solid none;
         border-width: 5px;
+
     }
 
     .logo{
-        margin: 0;
-        float: right;
-        margin-top: -60px;
-        width: 100px;
         padding: 0;
-        margin-right: 20px;
-        height:auto;
-        background-color: #2195b9;
-    }
-    .nav-responsive{
-        width: 400px!important;
-        background-color: red;
+        margin: 0;
+        margin-left:75%;
+        margin-top: -40px;
     }
     .pipeline{
         margin: 0;
         padding: 0;
-        margin-top: -5px;
-        height: 250px;
-        width: 300px;
-        margin-left: 30%;
+        margin-left: 25%;
+        margin-top: 10%;
+        width: 70%;
+        height: 90%;
+    }
+    .see-how-wrapper{
+        width: 75%;
+        margin-top: -40%;
+        margin-left: 17%;
+        padding: 0;
+        background-color: transparent;
     }
     .see-how{
+        background-color: transparent;
+    }
+    .see-how-responsive{
+        visibility: visible;
+        border: solid;
+        border-width: 20px;
+        border-color: white;
+    }
+    .slogan{
+        font-size: 16px;
+        background-color: transparent;
         padding: 0;
-        margin: 0;
-        margin-left: 30px;
-        margin-top: 70px;
+        /*border-style: solid none solid solid;*/
+        /*border-width: 40px;*/
+    }
+    .sub-slogan{
+        padding-top: 10px;
+        font-size: 12px;
+        background-color: transparent;
+
 
     }
     .button{
-        width: 40%;
-        font-size: 10px;
-        padding: 10px;
+        font-size:12px;
+        padding: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
         border-color: white;
         border-style: solid;
-        border-width: 10px;
+        border-width: 5px;
+        margin-top: -20px;
+    }
+    .oilrig{
+        padding: 0;
         margin: 0;
-        margin-left: 85px;
+        border: none;
+        width: 70%;
+        height: 80%;
+        margin-top: -110px;
+    }
 
-
-    }
-    .slogan{
-        margin: 0;
-        padding: 0;
-    }
-    .underline-slogan{
-        margin: 0;
-        padding: 0;
-    }
-    .sub-slogan{
-        margin: 0;
-        padding: 0;
-        margin-left: -20px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
 }

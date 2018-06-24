@@ -39,16 +39,16 @@ class App extends Component {
             <Pipeline/>
 
             <SeeHow/>
-              <Slanted/>
-              <Dots/>
+              {/*<Slanted/>*/}
+              {/*<Dots/>*/}
               <OilRig/>
-            <Moto/>
+            {/*<Moto/>*/}
 
 
 
           </div>
-        <div className="before-footer"></div>
-          <Footer/>
+        {/*<div className="before-footer"></div>*/}
+          {/*<Footer/>*/}
 
 
       </div>
