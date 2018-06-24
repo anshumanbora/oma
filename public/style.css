@@ -1,3 +1,49 @@
+/**
+ * Demo Styles
+ */
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.content {
+    margin: 0 auto;
+    padding-top: 64px;
+    /*max-width: 640px;*/
+    /*width: 94%;*/
+}
+
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
 
 /*Wrapper class to dictate paddings in mobile and web*/
 .main-wrapper{
@@ -10,10 +56,10 @@
     font-size: 14px;
     font-weight: bold;
     margin-left: -10px;
-    margin-top: -10px;
-    padding-top: 20px;
+    margin-top: -40px;
+    /*padding-top: 20px;*/
     padding-bottom:10px;
-    z-index: 10;
+    /*z-index: 10;*/
 }
 .nav-item{
     padding: 10px;
@@ -50,6 +96,7 @@
 }
 
 .logo{
+    z-index: 100;
     margin-top:-50px;
     float: right;
     margin-right: 180px;
@@ -58,28 +105,31 @@
     outline-style:solid ;
     outline-width: 30px;
     outline-color: tomato;
-    /*z-index: 0;*/
+
 }
 
 .pipeline{
-    z-index: 1;
-    margin-top:-50px;
-    right: 0;
-    padding-right: 50px;
+    /*position: relative;*/
+    /*z-index: 500;*/
+    /*display:inline-block;*/
     background-color: cornflowerblue;
-    /*margin-bottom: 200px;*/
+    width: 40%;
+    height:40%;
+    margin-left: 550px;
+    margin-top: -80px;
 }
 
 
 .see-how{
-    z-index: 50;
+    /*z-index: 50;*/
     padding: 20px;
     margin: 0 auto;
     background-color: green;
 
+
 }
 .see-how-wrapper{
-    margin-top: 100px;
+    margin-top: -200px;
 
 }
 .slogan{
@@ -109,25 +159,45 @@
 }
 
 .oilrig{
-
-    z-index: 2;
-    position: relative;
-    margin-top:250px;
+    /*z-index: 2;*/
+    /*position: relative;*/
+    margin-top:-250px;
     left: 0;
-    background-color: cornflowerblue;
-    margin-bottom: 150px;
+    margin-left: 100px;
+    /*margin-bottom: 50px;*/
+
 }
 
 .moto{
     /*bottom: 0;*/
-    float:right;
+    display: table;
     padding: 20px;
-    margin-right: 150px;
+    margin-left: 800px;
     position: relative;
-    z-index: 10;
+    /*z-index: 10;*/
     background-color: red;
     color: lightgrey;
     font-size: 25px;
-    margin-bottom: 100px;
+    margin-top: -250px;
 
+}
+
+.before-footer{
+    margin-bottom: 250px  ;
+}
+.slanted{
+    position: relative;
+    margin-top: -30px;
+    margin-left: 100px;
+    z-index: 500;
+    width: 18%;
+    height: 18%;
+}
+
+.dots{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 490px;
+    width: 18%;
+    height: 18%;
 }

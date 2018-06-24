@@ -17,19 +17,31 @@ function OilRig() {
 function Moto() {
     return <div className="moto text-right"> BUILT BY ROYALTY OWNERS<br/> FOR ROYALTY OWNERS</div>
 }
+function Slanted(){
+  return <img className="slanted" src={require('./assets/slanted.png')} />;
+}
+
+function Dots(){
+    return <img className="dots" src={require('./assets/Dots.png')} />;
+}
 
 class App extends Component {
   render() {
     return (
       <div>
+          <div className="content">
+            <Navbar/>
+            <Logo/>
+            <Pipeline/>
+            <SeeHow/>
+            <Slanted/>
+            <Dots/>
+            <OilRig/>
+            <Moto/>
 
-          <Navbar/>
-          <Logo/>
-          {/*<Pipeline/>*/}
-          <SeeHow/>
-          {/*<OilRig/>*/}
-          <Moto/>
 
+          </div>
+        <div className="before-footer"></div>
           <Footer/>
 
 
