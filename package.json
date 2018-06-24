@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lazyloadxt": "^1.1.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-lazyload": "^2.3.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "1.1.4"
   },

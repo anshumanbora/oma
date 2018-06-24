@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import SeeHow from "./components/SeeHow";
 import LightSpeed from 'react-reveal/LightSpeed';
 
+0
 function Logo(){
   return <img className="logo" src={require('./assets/Logo1.png')} />;
 }
@@ -15,14 +16,14 @@ function OilRig() {
     return <img className="oilrig" src={require('./assets/Oil-Rig.png')} />;
 }
 function Moto() {
-    return <div className="moto text-right"> BUILT BY ROYALTY OWNERS<br/> FOR ROYALTY OWNERS</div>
+    return <div className="moto text-right rise-up-animate5"> BUILT BY ROYALTY OWNERS<br/> FOR ROYALTY OWNERS</div>
 }
 function Slanted(){
-  return <img className="slanted" src={require('./assets/slanted.png')} />;
+  return <img className="slanted rise-up-animate3" src={require('./assets/slanted.png')} />;
 }
 
 function Dots(){
-    return <img className="dots" src={require('./assets/Dots.png')} />;
+    return <img className="dots rise-up-animate6" src={require('./assets/Dots.png')} />;
 }
 
 class App extends Component {
